@@ -53,7 +53,7 @@ pip install opencv-python
    explorer .
    ```
 2. **Execute the Script**: Run the following command in your terminal/command prompt:
-   ```bash
+  ```bash
    python canny_edge_detector.py
    ```
 3. **View Results**: Once the script finishes, open the `output` folder to see the generated edge-maps.
