@@ -46,13 +46,13 @@ pip install opencv-python
 1. **Prepare Images**: Place the images you want to process inside the `input` folder.
       If you want to see the folders visually to "attach" (paste) your images, type:
   ```bash
-   explorer .
+         explorer .
    ```
-3. **Execute the Script**: Run the following command in your terminal/command prompt:
+2. **Execute the Script**: Run the following command in your terminal/command prompt:
    ```bash
    python canny_edge_detector.py
    ```
-4. **View Results**: Once the script finishes, open the `output` folder to see the generated edge-maps.
+3. **View Results**: Once the script finishes, open the `output` folder to see the generated edge-maps.
 
 ---
 
