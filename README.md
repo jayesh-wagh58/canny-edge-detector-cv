@@ -12,3 +12,13 @@ Open canny_edge_detector.py.
 Update input_folder_path and output_folder_path with your local directories.
 
 Run the script via terminal: python canny_edge_detector.py
+
+Project Structure
+input/: Place source images here.
+
+output/: Processed images with Canny edges will be saved here.
+
+canny_edge_detector.py: Main execution script.
+
+Execution
+Run python canny_edge_detector.py to process all images in the input folder.
