@@ -12,16 +12,19 @@ This project is a Python-based tool designed to automate the process of edge det
 
 ### 1. Prerequisites
 Ensure you have Python 3.x installed on your system. You can check this by running:
+
 ```bash
 python --version
 ```
 
 ### 2. Clone the Repository
+
 ```bash
 git clone https://github.com/jayesh-wagh58/canny-edge-detector-cv.git
 ```
 
 ### 3. Install Dependencies
+
 This project requires the `opencv-python` library. Install it using pip:
 ```bash
 pip install opencv-python
