@@ -24,7 +24,7 @@ git clone https://github.com/jayesh-wagh58/canny-edge-detector-cv.git
 ```
 ### 3. Navigate to Repository
 ```bash
-cd canny-edge-detector-cv/Canny Edge Detector
+cd canny-edge-detector-cv\Canny Edge Detector
 ```
 ### 4. Install Dependencies
 
