@@ -66,4 +66,3 @@ To change these values, edit the `canny_edge_detection` function call in `canny_
 ## 👤 Author
 - **Name**: Jayesh Wagh
 - **Platform**: VITyarthi BYOP Submission
-```
