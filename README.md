@@ -44,9 +44,10 @@ pip install opencv-python
 ## 💻 How to Run
 
 1. **Prepare Images**: Place the images you want to process inside the `input` folder.
+   
       If you want to see the folders visually to "attach" (paste) your images, type:
   ```bash
-         explorer .
+   explorer .
    ```
 2. **Execute the Script**: Run the following command in your terminal/command prompt:
    ```bash
