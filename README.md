@@ -1,24 +1,69 @@
-# canny-edge-detector-cv
-A Python-based tool using OpenCV to perform Canny Edge Detection on images within a specified directory.
+This project is a Python-based tool designed to automate the process of edge detection in digital images. Using the OpenCV library, it applies a Gaussian Blur for noise reduction and the Canny Edge Detection algorithm to extract structural boundaries from images in bulk.
 
-Setup & Installation
-Clone the repo: git clone (https://github.com/jayesh-wagh58/canny-edge-detector-cv)
+## 🚀 Features
+- **Batch Processing**: Automatically processes all images in a folder.
+- **Noise Reduction**: Integrated Gaussian filtering to improve edge accuracy.
+- **Portability**: Uses relative pathing for easy execution across different environments.
+- **Clean Output**: Separates source images from processed results.
 
-Install dependencies: pip install -r requirements.txt
+---
 
-How to Run
-Open canny_edge_detector.py.
+## 🛠️ Installation & Setup
 
-Update input_folder_path and output_folder_path with your local directories.
+### 1. Prerequisites
+Ensure you have Python 3.x installed on your system. You can check this by running:
+```bash
+python --version
+```
 
-Run the script via terminal: python canny_edge_detector.py
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/](https://github.com/){your-username}/{your-repo-name}.git
+cd {your-repo-name}
+```
 
-Project Structure
-input/: Place source images here.
+### 3. Install Dependencies
+This project requires the `opencv-python` library. Install it using pip:
+```bash
+pip install opencv-python
+```
 
-output/: Processed images with Canny edges will be saved here.
+---
 
-canny_edge_detector.py: Main execution script.
+## 📁 Project Structure
+```text
+.
+├── input/                # Place your source images here (.jpg, .png, .webp)
+├── output/               # Processed edge-detected images will appear here
+├── canny_edge_detector.py # The main Python script
+├── README.md             # Project documentation
+└── requirements.txt      # List of dependencies
+```
 
-Execution
-Run python canny_edge_detector.py to process all images in the input folder.
+---
+
+## 💻 How to Run
+
+1. **Prepare Images**: Place the images you want to process inside the `input` folder.
+2. **Execute the Script**: Run the following command in your terminal/command prompt:
+   ```bash
+   python canny_edge_detector.py
+   ```
+3. **View Results**: Once the script finishes, open the `output` folder to see the generated edge-maps.
+
+---
+
+## ⚙️ Technical Configuration
+The script is pre-configured with the following parameters for optimal results:
+- **Gaussian Blur**: (5, 5) Kernel
+- **Low Threshold**: 50
+- **High Threshold**: 150
+
+To change these values, edit the `canny_edge_detection` function call in `canny_edge_detector.py`.
+
+---
+
+## 👤 Author
+- **Name**: Jayesh Wagh
+- **Platform**: VITyarthi BYOP Submission
+```
