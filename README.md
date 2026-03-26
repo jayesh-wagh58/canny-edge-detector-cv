@@ -22,8 +22,11 @@ python --version
 ```bash
 git clone https://github.com/jayesh-wagh58/canny-edge-detector-cv.git
 ```
-
-### 3. Install Dependencies
+### 3. Navigate to Repository
+```bash
+cd canny-edge-detector-cv
+```
+### 4. Install Dependencies
 
 This project requires the `opencv-python` library. Install it using pip:
 ```bash
