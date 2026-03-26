@@ -18,8 +18,7 @@ python --version
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/](https://github.com/){your-username}/{your-repo-name}.git
-cd {your-repo-name}
+git clone (https://github.com/jayesh-wagh58/canny-edge-detector-cv.git)
 ```
 
 ### 3. Install Dependencies
